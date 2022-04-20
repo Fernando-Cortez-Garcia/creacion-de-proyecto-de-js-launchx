@@ -1,0 +1,18 @@
+{
+    "name": "my_launchx_app",
+    "version": "1.0.0",
+    "description": "primera app ",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+    },
+    "author": "Fernando Cortez G",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
